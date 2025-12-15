@@ -1,0 +1,37 @@
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+a{
+    color: black;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+header > *{
+    margin: 0;
+    color: white;
+}
+.contents{
+    margin: 30px;
+}
+.flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    border-color: rgb(201, 201, 201);
+}
