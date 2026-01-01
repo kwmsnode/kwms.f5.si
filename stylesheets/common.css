@@ -35,3 +35,22 @@ table{
     border-collapse: collapse;
     border-color: rgb(201, 201, 201);
 }
+button{
+    border-radius: 10px;
+    border: 3px solid gray;
+    background-color: white;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: gray;
+}
+.buttona{
+    border-radius: 10px;
+    border: 3px solid gray;
+    background-color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.buttona:hover{
+    background-color: gray;
+}
